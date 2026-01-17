@@ -1,0 +1,838 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ce9223;
+    padding: 0 10%;
+    color: white;
+    height: 80px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-top h1 {
+    text-transform: uppercase;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.location p {
+    font-size: 14px;
+}
+
+
+.first {
+    background-color: white;
+    color: #ce9223;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 80px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-bottom ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-bottom ul li {
+    list-style: none;
+}
+
+.header-bottom ul li:nth-child(1) a {
+    color: #ce9223;
+}
+
+.header-bottom ul li a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-bottom button {
+    padding: 8px 25px;
+    background-color: #ce9223;
+    border: 1px solid #ce9223;
+    color: white;
+    font-weight: bold;
+}
+
+/* header tugadi */
+
+/* home boshlandi */
+
+section#home {
+    background-image: url(https://deadlineuchun.netlify.app/img/carousel-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+.home-text {
+    padding: 300px 100px;
+}
+
+.home-text h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.home-text button {
+    padding: 15px 15px;
+    text-transform: uppercase;
+    background-color: #ce9223;
+    border: 1px solid #ce9223;
+    color: white;
+    font-weight: bold;
+}
+
+/* home tugashi */
+
+/* about boshlanishi */
+
+section#about {
+    background-color: white;
+}
+
+.about-box {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 150px;
+    position: relative;
+}
+
+.about-text h1 {
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.about-img img {
+    position: relative;
+    z-index: 2;
+    width: 600px;
+}
+
+.about-text {
+    padding-left: 30px;
+}
+
+.about-text p {
+    width: 80%;
+    margin: 15px 0;
+}
+
+.icon i {
+    background-color: #f9f8f7;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #ce9223;
+}
+
+.about-icon {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.icon h3 {
+    width: 70%;
+    font-weight: normal;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;    
+}
+
+.icon-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid; */
+    width: 100%;
+    color: grey;
+}
+
+.icon-check i {
+    color: #ce9223;
+    font-size: 20px;
+}
+
+.text {
+    border: 5px solid #ce9223;
+    padding: 30px 10px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.text h3 {
+    padding: 0 5%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.border {
+    animation: border 1.5s infinite;
+    border: 5px solid #ce9223;
+    width: 200px;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+    left: -60px;
+    top: -100px;
+}
+
+@keyframes border {
+    10% {
+        transform: translateY(2px);
+    }
+
+    25% {
+        transform: translateY(4px);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
+
+    75% {
+        transform: translateY(16px);
+    }
+
+    100% {
+        transform: translateY(2px);
+    }
+}
+
+.card {
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    width: 350px;
+    height: 270px;
+    margin-top: 150px;
+}
+
+.card h3 {
+    text-transform: uppercase;
+}
+
+.card h3 {
+    padding: 0 50px;
+}
+
+.card p {
+    padding: 0 50px;
+}
+
+.card a {
+    padding: 0 50px;
+}
+
+.card p {
+    margin: 10px 0;
+    color: grey;
+}
+
+.card-icon {
+    position: relative;
+    background-color: #ce9223;
+    color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    top: -30px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.card:hover .card-icon {
+    transform: translateX(50px);
+}
+
+.card a {
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* about tugadi */
+
+/* services boshlandi */
+
+section#services {
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://deadlineuchun.netlify.app/img/carousel-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 120px;
+    background-attachment: fixed;
+}
+
+.services-box {
+    color: white;
+    /* width: 31%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 50px;
+    
+}
+
+.p {
+    width: 40%;
+    margin: 20px 0;
+    text-align: right;
+}
+
+.services-box h1 {
+    width: 30%;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.client {
+    border: 5px solid #ce9223;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.project-client {
+    display: flex;
+    gap: 20px;
+}
+
+/* service tugadi */
+
+/* pages boshlandi */
+
+section#pages {
+    margin-top: 100px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px 37%;
+    text-transform: uppercase;
+}
+
+.pages-card {
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    /* background-color: #ce9223; */
+    width: 350px;
+    margin: 0 auto;
+    height: 450px;
+    padding: 0 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.pages-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ce9223;
+    z-index: -1;
+    height: 0;
+    transition: 1s;
+}
+
+.pages-card:hover::after {
+    top: 0;
+    height: 100%;
+}
+
+.pages-card button {
+    position: absolute;
+    left: 0;
+    padding: 8px 20px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.pages-card-img {
+    width: 300px;
+    position: relative;
+    top: -40px;
+    height: 200px;
+}
+
+.pages-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pages-card p {
+    padding: 10px 0;
+}
+
+.pages-card h3 {
+    text-transform: uppercase;
+}
+
+.pages-cards {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* pages tugashi */
+
+/* contact boshlanishi */
+
+section#contact {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://deadlineuchun.netlify.app/img/carousel-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 65vh;
+    color: white;
+    margin-top: 100px;
+}
+
+.contact-left h1 {
+    /* width: 50%; */
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.p2 {
+    /* width: 60%; */
+    margin: 20px 0;
+}
+
+.contact-icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.contact-icon h3 {
+    text-transform: uppercase;
+}
+
+.underline {
+    position: absolute;
+    background-color: grey;
+    width: 500px;
+    bottom: 0;
+    height: 1px;
+}
+
+.contact-i {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.contact-icon-text {
+    /* border: 1px solid; */
+    width: 40%;
+}
+
+.contact-box {
+    display: flex;
+    padding-top: 50px;
+    margin: 0 auto;
+    padding: 50px 20%;
+}
+
+.contact-right {
+    width: 100%;
+    padding: 50px 50px;
+    background-color: white;
+    margin-left: 100px;
+    height: 600px;
+}
+
+.contact-right-title {
+    color: black;
+    text-transform: uppercase;
+}
+
+.input input{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;;
+}
+
+.input {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contact-right textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 15px;
+}
+
+.contact-right button {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #ce9223;
+    border: 1px solid #ce9223;
+    font-weight: bold;
+    color: white;
+}
+
+.builders-title {
+    text-align: center;
+    padding: 50px 35%;
+    text-transform: uppercase;
+}
+
+.builders-card {
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+    width: 400px;
+    height: 620px;
+}
+
+.builders-card-header {
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+
+.builders-card-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.builders-card-header::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #ce9223;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+.builders-card:hover .builders-card-header::after {
+    transform: scaleX(1);
+}
+
+.builders-card-body {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.builders-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.builders-bottom-box {
+    display: flex;
+    margin-left: 20%;
+}
+
+.builders-left {
+    width: 800px;
+}
+
+.builders-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.clients {
+    display: flex;
+}
+
+.client-rating i {
+    color: #ce9223;
+}
+
+.client-rating {
+    margin-left: 20px;
+}
+
+.client-rating h3 {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: lighter;
+}
+
+.client-rating p {
+    color: grey;
+}
+
+.builders-right {
+    margin-left: 50px;
+}
+
+.builders-right p:nth-child(2) {
+    width: 45%;
+    margin: 20px 0;
+    color: grey;
+}
+
+.builders-icon i {
+    color: #ce9223;
+    font-size: 30px;
+}
+
+section#email {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(https://deadlineuchun.netlify.app/img/carousel-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-top: 100px;
+    height: 30vh;
+}
+
+.email-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.email-left i{
+    color: #ce9223;
+    font-size: 40px;
+}
+
+.email-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.email-icon p {
+    width: 60%;
+    font-style: italic;
+    color: grey;
+}
+
+.email-left h1 {
+    color: black;
+    text-transform: uppercase;
+}
+
+.email-box form {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.email-box form input {
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    padding: 15px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke; 
+}
+
+.email-box button {
+    padding: 10px 25px;
+    border: 1px solid #ce9223;
+    background-color: #ce9223;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer {
+    height: 100vh;
+    background-color: #2b2c2e;
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    /* gap: 50px; */
+    justify-content: center;
+}
+
+.office {
+    /* border: 1px solid black; */
+    width: 20%;
+}
+
+.office h3 {
+    text-transform: uppercase;
+}
+
+.office-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: grey;
+    padding-top: 10px;
+}
+
+.office-icon i {
+    color: #ce9223;
+}
+
+.office-icons2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.office-icon2 i {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.links-icon a {
+    color: grey;
+    text-decoration: none;
+}
+
+.links-icon {
+    margin-top: 10px;
+}
+
+.hours {
+    margin-left: 10%;
+}
+
+.hours h3 {
+    margin-top: 20px;
+    color: grey;
+}
+
+.hours-content h3:nth-child(1) {
+    width: 50%;
+    font-size: 17px;
+}
+
+.hours-content h3:nth-child(2) {
+    width: 45%;
+    font-size: 17px;
+}
+
+.hours-content h3:nth-child(3) {
+    width: 30%;
+    font-size: 17px;
+}
+
+.gallery {
+    text-transform: uppercase;
+}
+
+.gallery h3 {
+    margin-top: 20px;
+}
+
+.gallery-img {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery-img img {
+    width: 100%;
+}
